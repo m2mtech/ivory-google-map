@@ -48,6 +48,7 @@ class JsMarkerClusterHelper extends DefaultMarkerClusterHelper
      */
     public function renderLibraries(MarkerCluster $markerCluster, Map $map)
     {
+        return ''; // added via gulp
         $url = '/js/markerclusterer.js';
 
         return sprintf('<script type="text/javascript" src="%s"></script>'.PHP_EOL, $url);
